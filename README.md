@@ -1,10 +1,12 @@
 echo "# multi-page8hdu893h8u9jy78hju98j434s98yy7" >> README.md
 //ACTIVATES SOURCE CONTROL
 git init
+
 git add README.md
 git commit -m "first commit"
 
 // RENAMES THE CURRENT BRANCH TO MAIN
+//git may call BRANCH MASTER BY DEFAULT
 git branch -M main
 
 // ASSIGNS A URL TO THE ORIGIN VARIABLE
