@@ -1,0 +1,34 @@
+body
+{
+  background-color: grey;
+}
+table
+{
+  border-style: solid;
+  border-color: grey;
+}
+h2
+{
+  color: yellow;
+  font-style: italic;
+  padding: 50px;
+  background-color: hotpink;
+}
+
+
+}
+footer {
+  text-align: center;
+}
+
+
+.italic {
+  font-style: italic;
+}
+
+.bold
+{font-weight: bold}
+
+h2:hover{
+        color:white;
+        }
