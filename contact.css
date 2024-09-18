@@ -8,3 +8,7 @@ nav {
 footer {
   text-align: center;
 }
+
+#email {
+  width: 250px;
+}
