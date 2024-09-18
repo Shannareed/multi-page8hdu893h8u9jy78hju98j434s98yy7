@@ -16,3 +16,8 @@ footer {
 #comments {
   width: 250px;
 }
+
+#owner {
+  width: 300px;
+  height: 300px;
+}
