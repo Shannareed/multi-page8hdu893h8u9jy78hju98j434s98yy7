@@ -1,7 +1,4 @@
-body
-{
-  background-color: ;
-}
+
 table
 {
   border-style: solid;
@@ -15,11 +12,11 @@ h2
   background-color: hotpink;
 }
 
-nav { margin: 25px;
+nav { 
   padding: 10px;
   background-color: hotpink;
   font-style: italic;
-  
+  text-align: center;
   
 }
 
