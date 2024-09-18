@@ -1,6 +1,6 @@
 body
 {
-  background-color: grey;
+  background-color: ;
 }
 table
 {
@@ -9,12 +9,19 @@ table
 }
 h2
 {
-  color: yellow;
+
   font-style: italic;
   padding: 50px;
   background-color: hotpink;
 }
 
+nav { margin: 25px;
+  padding: 10px;
+  background-color: hotpink;
+  font-style: italic;
+  
+  
+}
 
 
 footer {
