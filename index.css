@@ -4,11 +4,15 @@ table
   border-style: solid;
   border-color: grey;
 }
+h1 {
+  text-align: center;
+  background-color: hotpink;
+}
 h2
 {
-
+  text-align: center;
   font-style: italic;
-  padding: 50px;
+  padding: 5px;
   background-color: hotpink;
 }
 
