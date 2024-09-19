@@ -12,3 +12,7 @@ img {
   height: auto;
   max-width: 100%;
 }
+#header {
+  height: 200px;
+  width: 1500px;
+}
