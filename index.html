@@ -90,12 +90,12 @@ src="https://media.glamour.com/photos/6467c7b6aa366dbb5f41f8dc/3:4/w_320%2Cc_lim
             />
           </div>
           <div class="col border border-white">
-            The winner of the raffle will be notified via the email address provided at the time of entry on **December 21, 2024**. To be eligible, you must be 18 years or older. The winner will have **72 hours** to claim their prize; if not, an alternate winner will be selected. Please note, only residents of **North Carolina, Nevada, California, Louisiana,** and **Missouri** are eligible to participate in this raffle.
+            The winner of the raffle will be notified via the email address provided at the time of entry on **December 21, 2024**. To be eligible, you must be 18 years or older. The winner will have **72 hours** to claim their prize; if not, an alternate winner will be selected. Please note, only residents of  Louisiana are eligible to participate in this raffle.
             
             <br>
             <br>
             <button onclick="raffle()">Click Here to Enter Raffle</button>
-          
+         
           </div>
         </div>
       </div>
@@ -122,9 +122,6 @@ if (age >= 18) {
   <script>
      userState = prompt("Enter Your Location");
     result = userState === "louisiana";
-    result = userState === "california" ;
-    result = userState === "nevada" ;
-    result = userState === "north carolina" ;
     document.write("You Live in "+ userState + " " + result + "<br>")
   
   </script>

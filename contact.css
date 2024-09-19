@@ -21,4 +21,7 @@ footer {
   width: 300px;
   height: 300px;
 }
-a {}
+
+a:link {
+  color: green;
+}
