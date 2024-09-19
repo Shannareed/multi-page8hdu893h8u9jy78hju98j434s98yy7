@@ -1,3 +1,11 @@
+body {
+  
+  width: 100vw;  /* The element will always be 80% of the viewport width */
+  height: 50vw; /* The element's height will adjust according to the viewport width */
+  
+
+
+}
 nav { 
   
   background-color: pink;
