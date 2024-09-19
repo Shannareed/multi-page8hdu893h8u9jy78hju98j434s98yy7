@@ -45,7 +45,7 @@ if (age >= 18) {
     </header>
 
     <main>
-      <h1>Welcome to Shhh Shoetiquestion Handbags</h1>
+      <h1>Welcome to Shhh Shoetique Handbags</h1>
       <p></p>
       <h2 id="Brand">My Brand</h2>
       <p>
@@ -111,13 +111,17 @@ src="https://media.glamour.com/photos/6467c7b6aa366dbb5f41f8dc/3:4/w_320%2Cc_lim
             <br>
             <button onclick="raffle()">Click Here to Enter Raffle</button>
          <button onclick="runProblem()">Check Age</button><br>
+            <button onclick="runState()">
+              Check Location
+            </button>
            
              <script>
+               function runState() {
     
      userState = prompt("Enter Your Location");
     result = userState === "louisiana";
     document.write("You Live in "+ userState + " " + result + "<br>")
-  
+               }
   </script>
             <i>If the statement above says false you may not enter the raffle</i>
           </div>
