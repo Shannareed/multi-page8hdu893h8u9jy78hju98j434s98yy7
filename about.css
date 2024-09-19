@@ -8,3 +8,7 @@ nav {
 footer {
   text-align: center;
 }
+img {
+  height: auto;
+  max-width: 100%;
+}
