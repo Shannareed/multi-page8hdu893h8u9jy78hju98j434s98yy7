@@ -30,15 +30,17 @@ if (age >= 18) {
 
   </script>
     <script>
-               function runState() {
-  
-    
-     userState = prompt("Enter Your Location");
-    result = userState === "louisiana";
-    alert("You Live in "+ userState )
-               }
-             
-  </script>
+  function runState(){
+userState = prompt("Enter Your State");
+  result = userState === "louisiana";
+ if(userState !== "louisiana") 
+   alert("You are not qualified to enter raffle")
+  else {
+    alert("You may enter raffle")
+  }
+
+  }
+</script>
   </head>
   <body>
     <header>
