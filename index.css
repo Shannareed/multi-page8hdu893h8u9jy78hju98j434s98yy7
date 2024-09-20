@@ -43,14 +43,13 @@ h1:hover{
 h2:hover{
         color:hotpink;
         }
+h4:hover{
+        color:hotpink;
+        }
 form {
   text-align: center;
 }
 #prize {
   background-color: white;
   text-align: center;
-}
-h4 {
-  text-align: center;
-  background-color: white;
 }
